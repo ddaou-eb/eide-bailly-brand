@@ -12,7 +12,7 @@ install and needs no admin rights or special software.
    ![Upload skill button in Copilot Cowork's Customize > Skills screen](docs/upload-skill.png)
 
 3. Upload the zip from step 1.
-4. Ask Copilot to list your skills — you should see `eide-bailly-brand` in the results.
+4. Ask Copilot to list your skills — you should see `eide-bailly-brand` in the results (may take a few minutes to show up).
 
 ## What's in this repo
 
