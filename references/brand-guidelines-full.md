@@ -1,6 +1,6 @@
 # Eide Bailly Brand — Full Reference
 
-*Source: Official Eide Bailly Brand Guidelines, October 2025.*
+*Source: Official Eide Bailly Brand Guidelines, August 2026.*
 Read this when you need detail beyond the core rules in `SKILL.md` — the full color palette and approved pairings, per-element font weights, detailed logo placement and don'ts, per-format layout specifics, the full voice guidance, and the firm boilerplate.
 
 ## Color Palette (full)
@@ -108,16 +108,36 @@ Eide Bailly's voice is: **Proactive · Business-savvy · Genuine · Collaborativ
 **Trustworthy** — Bold, not boastful. Confident without hype. Don't hedge. Back up words with experience and clarity.
 
 ### Tone by Document Type
-| Tone | When to Use | Voice Quality |
-|---|---|---|
-| Operational | Technical, compliance, internal | Friendly, clear, professional |
-| Business | Day-to-day client communications | Balanced, helpful, direct |
-| Marketing | Proposals, presentations, campaigns | Authentic, energetic, story-driven |
+| Tone | When to Use | Purpose | Voice Quality | Examples |
+|---|---|---|---|---|
+| Operational | Technical, regulatory, or internal content | Convey clear, factual information | Friendly, clear, professional | Tax alerts, compliance updates, FAQs |
+| Business | Day-to-day communications | Show practical value | Balanced, helpful, direct | Service pages, tools, guides |
+| Marketing | Campaigns, social, events | Spark curiosity and action | Authentic, energetic, story-driven | Headlines, employer brand, promos |
+
+Most of what gets built with this skill — proposals, SOWs, status reports, one-pagers — is **Business** tone: practical and direct, not a campaign pitch. Reserve **Marketing** tone for actual campaign/event materials.
 
 ### Standard Boilerplate (use verbatim when describing the firm)
-> *"Eide Bailly helps businesses work smarter — financially, operationally, and strategically. As a Top 20 CPA firm, we bring practical expertise in tax, audit, advisory, and technology services to improve performance, reduce risk, and support long-term growth. With a team of 3,500+ professionals across the U.S., we're dedicated to solving our clients' toughest challenges and empowering them to grow with confidence."*
+> *"Eide Bailly helps organizations work smarter — financially, operationally, and strategically. As a Top 20 accounting firm, we bring practical expertise in tax, advisory, and technology services to improve performance, reduce risk, and support long-term growth. With a team of 3,500+ professionals across the U.S., we're dedicated to solving our clients' toughest challenges and empowering them to grow with confidence."*
 
 Use this boilerplate exactly as written. Do **not** invent new firm statistics, rankings, office counts, awards, or client claims — if a figure isn't in this skill, leave a clearly-marked placeholder (e.g., `[confirm with Marketing]`) for the author to verify.
+
+### Client Solutions Framework
+Everything we do is designed to help our clients:
+- Perform at their best
+- Protect what they've built
+- Prosper into the future
+
+Use these three as a framing device for value props or section headers when it fits — don't force all three into a document that doesn't need them.
+
+### APS Disclosure (Alternative Practice Structure)
+
+Any **external-facing material that describes the firm or its services** — proposals, presentations, reports, event materials, advertising, articles — generally requires this disclosure. When in doubt, include it. (This is separate from the signature-block entity-name rule in `SKILL.md`, which only applies to documents with a signing party.)
+
+> *"Eide Bailly is the brand name under which Eide Bailly LLP and Eide Bailly Advisory LLC and its subsidiary entities provide professional services. Eide Bailly LLP and Eide Bailly Advisory LLC (and its respective subsidiary entities) practice as an alternative practice structure in accordance with the AICPA Code of Professional Conduct and applicable law, regulations, and professional standards. Eide Bailly LLP is a licensed independent CPA firm that provides attest services to its clients. Eide Bailly Advisory LLC (and its respective subsidiary entities) provide tax and business advisory services to their clients. Eide Bailly Advisory LLC and its subsidiary entities are not licensed CPA firms."*
+
+Use this exactly as written, typically as a footer/closing-page disclaimer in small type. Don't paraphrase it.
+
+Brand guideline questions → tleighton@eidebailly.com.
 
 ## Worked Examples
 

@@ -39,15 +39,21 @@ Apply these automatically on every Eide Bailly deliverable:
 **Logo** → Embed the approved **PNG** files (table below); pick the colorway by background; never modify, rotate, recolor, stretch, or use the mark alone. Minimum 1" wide.
 **Voice** → Proactive, business-savvy, genuine, collaborative, trustworthy — direct, jargon-free, no buzzwords ("unlock," "boost") or hokey puns.
 **Formal legal name** → Only on documents with signatory lines (SOWs, sign-offs, engagement letters, invoices), the formal entity for advisory / Technology Consulting work is **Eide Bailly Advisory LLC** (**Eide Bailly LLP** only for audit & attest). Everywhere else, just use "Eide Bailly."
+**APS Disclosure** → Any external-facing material that describes the firm or its services (proposals, presentations, reports, event materials, etc.) generally needs the Alternative Practice Structure disclosure paragraph, verbatim from the reference — typically as a small-type footer or closing-page disclaimer. When in doubt, include it.
 
 ## Formal Legal Entity Name
 
-The Eide Bailly **brand, logo, colors, voice, and teams are unchanged.** The one thing to get right is the **formal legal entity name**, and it only matters where a document actually names the signing/contracting party.
+The Eide Bailly **brand, logo, colors, voice, and teams are unchanged.** The one thing to get right is the **formal legal entity name**, and it only matters where a document actually names the signing/contracting party. This is separate from the APS Disclosure paragraph below, which applies more broadly.
 
 - **On documents with signatory lines** — SOWs, sign-offs / acceptance forms, engagement letters, order forms, invoices — the formal entity for advisory / Technology Consulting work is **Eide Bailly Advisory LLC**. Use it wherever the legal name and signature block appear.
 - **Eide Bailly LLP** is the CPA / audit & attest entity — use it as the formal name **only** on audit & attest signatory documents.
 - **Everywhere else** — slides, reports, proposals without a signature block, one-pagers, emails, general body copy — just use the brand name **"Eide Bailly."** No legal suffix needed.
-- Confirm exact signature-block wording with Legal/Marketing rather than inventing it; use a placeholder like `[confirm EB Advisory LLC signature block]` if it isn't supplied.
+
+## APS Disclosure (Alternative Practice Structure)
+
+Broader than the signature-block rule above: **any external-facing material that describes the firm or its services** — proposals, presentations, reports, event materials, advertising, articles — generally requires this disclosure paragraph. When in doubt, include it (typically as a small-type footer or on a closing page).
+
+The verbatim approved text is in [references/brand-guidelines-full.md](references/brand-guidelines-full.md) — use it exactly as written, never paraphrased.
 
 ## How to Apply (mechanics for the document builder)
 
@@ -77,7 +83,8 @@ Vector masters (EPS) are **not** bundled — Copilot skill folders only accept P
 ## Guardrails
 
 - **Never fabricate firm facts.** Use the firm boilerplate (in the reference) verbatim; don't invent statistics, rankings, office counts, awards, or claims. Missing fact → placeholder for the author to confirm.
-- **Formal legal name.** On signatory documents (SOWs, sign-offs, engagement letters, invoices), name **Eide Bailly Advisory LLC** for advisory / Technology Consulting work (Eide Bailly LLP only for audit & attest). Everywhere else, just "Eide Bailly." Confirm exact wording with Legal/Marketing rather than inventing it.
+- **Formal legal name.** On signatory documents (SOWs, sign-offs, engagement letters, invoices), name **Eide Bailly Advisory LLC** for advisory / Technology Consulting work (Eide Bailly LLP only for audit & attest). Everywhere else, just "Eide Bailly."
+- **APS Disclosure.** On external-facing material describing the firm/services (proposals, presentations, reports, etc.), include the APS Disclosure paragraph verbatim from the reference — don't paraphrase it, and don't skip it when in doubt.
 - **Fonts unavailable in the render environment?** Still specify Segoe UI / Calibri by name (Office applies them on open). Never swap in Times/Arial/Helvetica.
 - **Logo missing or only EPS available?** Embed only the listed PNG files; never embed EPS in Office, and never recreate, recolor, or stretch the mark. If the exact colorway isn't present, choose by background contrast and note the choice.
 - **Color uncertainty?** If a pairing isn't in the approved list, default to Black Blue + Stone White. Vivid Green stays an accent — one element per layout, max.
@@ -93,3 +100,4 @@ Vector masters (EPS) are **not** bundled — Copilot skill folders only accept P
 - [ ] Voice is proactive, direct, and jargon-free — no buzzwords or hokey puns
 - [ ] Boilerplate/statistics used verbatim — nothing fabricated
 - [ ] Signatory documents (SOWs, sign-offs, invoices) use the formal entity **Eide Bailly Advisory LLC** (Eide Bailly LLP only for audit & attest); everywhere else just "Eide Bailly"
+- [ ] External-facing materials (proposals, presentations, reports) include the APS Disclosure paragraph verbatim
