@@ -80,6 +80,17 @@ Embed-ready — use these in .docx / .pptx / .pdf:
 
 Vector masters (EPS) are **not** bundled — Copilot skill folders only accept PNG (not EPS/WEBP). For a larger/print size, get the vector master from Marketing and export a PNG; never stretch a small PNG up past its native size.
 
+## Word (.docx) and PowerPoint (.pptx): override the styles, not just the text
+
+Document builders ship default styles and a default theme (often red or rust headings and a serif body font such as Cambria). Setting a font or color on individual runs does not change those defaults, so headings, subtitles, tables, and any text without explicit formatting come out off-brand. Do all of the following:
+
+1. **Normal style** → Calibri, Black Blue `#0E172D`.
+2. **Title, Subtitle, Heading 1–3** → Segoe UI Semibold, Black Blue `#0E172D` or EB Blue `#1E31B6`. Set an explicit hex color. Never leave the builder's default heading color, and never use red or orange.
+3. **Set every font slot** (`ascii`, `hAnsi`, `eastAsia`, `cs`) and remove theme font references (`asciiTheme`, `hAnsiTheme`). Set the theme's heading font to Segoe UI and body font to Calibri. In PowerPoint, do this in the slide master and theme.
+4. **Tables** → Calibri Black Blue text. Borders, header fills, and any shading come from the palette only. Hyperlinks are EB Blue.
+5. **No off-palette color anywhere**, including status or warning text. Say it in words instead of coloring it.
+6. **Verify the saved file.** Unzip it and read `word/styles.xml` and `word/theme/theme1.xml` (`ppt/theme/` for decks). Every font must be Segoe UI or Calibri, and every color must be a palette hex. If Cambria, Times New Roman, Arial, or any other color appears, fix the styles and rebuild before delivering.
+
 ## Guardrails
 
 - **Never fabricate firm facts.** Use the firm boilerplate (in the reference) verbatim; don't invent statistics, rankings, office counts, awards, or claims. Missing fact → placeholder for the author to confirm.
@@ -95,6 +106,7 @@ Vector masters (EPS) are **not** bundled — Copilot skill folders only accept P
 
 - [ ] Colors from the approved palette only
 - [ ] Fonts: Segoe UI for headings, Calibri for body
+- [ ] Built-in styles and theme overridden (Normal, Title, Subtitle, Headings, tables), and the saved file's `styles.xml` and theme checked: no serif fonts, no red or other off-palette colors
 - [ ] Logo embedded from an approved **PNG**, correct color version for the background, ≥ 1" wide with proper clearspace
 - [ ] Vivid Green used sparingly as accent only (not a dominant color)
 - [ ] Voice is proactive, direct, and jargon-free — no buzzwords or hokey puns
