@@ -90,6 +90,7 @@ Document builders ship default styles and a default theme (often red or rust hea
 4. **Tables** → Calibri Black Blue text. Borders, header fills, and any shading come from the palette only. Hyperlinks are EB Blue.
 5. **No off-palette color anywhere**, including status or warning text. Say it in words instead of coloring it.
 6. **Verify the saved file.** Unzip it and read `word/styles.xml` and `word/theme/theme1.xml` (`ppt/theme/` for decks). Every font must be Segoe UI or Calibri, and every color must be a palette hex. If Cambria, Times New Roman, Arial, or any other color appears, fix the styles and rebuild before delivering.
+7. **Look at every page.** Render each page or slide to an image with whatever the environment offers (Word or PowerPoint export to PDF or PNG, LibreOffice, or a PDF-to-image library) and view each image. Check that no text is clipped or runs off the page, nothing overlaps, the logo sits in clear space with the right colorway, and text is readable against its background. Fix, rebuild, and look again. If nothing can render pages, say so when handing over.
 
 ## Guardrails
 
@@ -113,3 +114,7 @@ Document builders ship default styles and a default theme (often red or rust hea
 - [ ] Boilerplate/statistics used verbatim — nothing fabricated
 - [ ] Signatory documents (SOWs, sign-offs, invoices) use the formal entity **Eide Bailly Advisory LLC** (Eide Bailly LLP only for audit & attest); everywhere else just "Eide Bailly"
 - [ ] External-facing materials (proposals, presentations, reports) include the APS Disclosure paragraph verbatim
+- [ ] Every page or slide rendered to an image and viewed: nothing clipped, overlapping, or off the page
+- [ ] Saved file re-read against the original request: every part covered, nothing added that wasn't asked for
+
+Fix anything that fails and run the checklist again. When handing the file over, list which checks ran and anything that couldn't be checked.
